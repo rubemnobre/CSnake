@@ -133,7 +133,6 @@ void logicLoop(){
 		lvl++;
 		if(spd > 50){
             spd -= 5;
-            printf("%d\n", spd);
         }
 		cfood(1);
 		k = 0;
